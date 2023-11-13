@@ -25,5 +25,8 @@ jobs:
         run: npm run build
 
       - name: Deploy to server
+        run: sudo cp -r build/* /opt/bitnami/apache2/htdocs/
+
+      - name: Restart Web Server
         run: sudo /opt/bitnami/ctlscript.sh restart apache
           
