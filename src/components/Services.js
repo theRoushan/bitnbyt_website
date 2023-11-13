@@ -17,7 +17,7 @@ const Services = () => {
           return (
             <div key={item.imgUrl}>
               <div className="w-[60px] h-[60px] border border-black rounded-full flex items-center justify-center mb-[10px]">
-                <img src={item.imgUrl} className="w-[30px]" />
+                <img src={item.imgUrl} className="w-[30px]" alt="img"/>
               </div>
               <h2 className="text-[24px] leading-[36px] font-bold text-left mb-[10px]">
                 {item.title}
