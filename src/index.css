@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", -apple-system,
+    BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@layer utilities {
+  .custom-transition {
+    @apply transition duration-300;
+  }
+  .nav-links {
+    @apply text-lg font-semibold hover:text-yellow custom-transition;
+  }
+  .btn {
+    @apply py-[14px] px-8 text-lg font-semibold border rounded-full custom-transition;
+  }
+  .info-text {
+    @apply text-lg leading-[27px] text-gray-dark;
+  }
+}
