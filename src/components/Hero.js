@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
           <div>
             <form className="flex place-items-center gap-4" onSubmit={(e)=>  e.preventDefault()}>
-              <input type="email" name="email" placeholder="your email here" className="py-[14px] px-8 text-lg  border rounded-full w-8/12 focus:outline-purple focus:bg-white-smoke"/>
+              <input type="email" name="email" placeholder="Your email here" className="py-[14px] px-8 text-lg border rounded-full w-8/12 focus:outline-purple text-black "/>
               <button className="btn bg-yellow border-yellow text-black hover:text-white hover:bg-transparent">
                 Contact Us
               </button>

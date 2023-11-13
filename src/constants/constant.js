@@ -8,6 +8,9 @@ import img20 from "../assets/asset 20.jpeg";
 import img21 from "../assets/asset 21.jpeg";
 import img22 from "../assets/asset 22.jpeg";
 import img23 from "../assets/asset 23.jpeg";
+// import img31 from "../assets/asset 31.jpeg";
+// import img33 from "../assets/asset 33.jpeg";
+// import img34 from "../assets/asset 34.jpeg";
 
 
 export const services = [
@@ -65,3 +68,5 @@ export const work = [
         desc: "Logo, Webapp, App"
     },
 ]
+
+// export const 
