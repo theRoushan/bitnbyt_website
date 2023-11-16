@@ -12,6 +12,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.gradient{
+  background-color: #2a2b30;
+  background-image: 
+  radial-gradient(circle at top left, rgba(189, 47, 255, 0.771) 0%, transparent 37%),
+  radial-gradient(circle at bottom right, #5546f9 0%, transparent 40%);
+}
 @layer utilities {
   .custom-transition {
     @apply transition duration-300;

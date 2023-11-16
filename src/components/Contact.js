@@ -50,7 +50,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="contact-right w-5/12 bg-black-400 rounded-3xl p-16 overflow-hidden relative bg-opacity-60">
+        <div className="contact-right w-5/12 rounded-3xl p-16 overflow-hidden relative bg-opacity-60 gradient">
           <form className="flex flex-col w-full gap-6 relative">
                 <input type="text" name="name" placeholder="your name*" className="text-white outline-none text-lg rounded-[30px] w-full bg-black-800 px-6 placeholder-white py-5 font-semibold "/>
                 <input type="email" name="email" placeholder="your email*" className="text-white text-lg outline-none rounded-[30px] w-full bg-black-800 px-6 placeholder-white py-5 font-semibold"/>
