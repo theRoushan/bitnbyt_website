@@ -8,9 +8,9 @@ import img20 from "../assets/asset 20.jpeg";
 import img21 from "../assets/asset 21.jpeg";
 import img22 from "../assets/asset 22.jpeg";
 import img23 from "../assets/asset 23.jpeg";
-// import img31 from "../assets/asset 31.jpeg";
-// import img33 from "../assets/asset 33.jpeg";
-// import img34 from "../assets/asset 34.jpeg";
+import img31 from "../assets/asset 31.jpeg";
+import img33 from "../assets/asset 33.jpeg";
+import img34 from "../assets/asset 34.jpeg";
 
 
 export const services = [
@@ -69,4 +69,23 @@ export const work = [
     },
 ]
 
-// export const 
+export const testimonials = [
+    {
+        imgUrl : img31,
+        name: "Natasha",
+        role: "Designer",
+        comment: "Absolutely thrilled with the exceptional service and incredible results that recieved. Highly recommend!."
+    },
+    {
+        imgUrl : img33,
+        name: "John Mortin",
+        role: "Developer",
+        comment: "Absolutely thrilled with the exceptional service and incredible results that recieved. Highly recommend!."
+    },
+    {
+        imgUrl : img34,
+        name: "Mark Firdaus",
+        role: "Product Manager",
+        comment: "Absolutely thrilled with the exceptional service and incredible results that recieved. Highly recommend!."
+    },
+]
