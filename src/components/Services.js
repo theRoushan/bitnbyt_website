@@ -3,7 +3,7 @@ import { services } from "../constants/constant";
 
 const Services = () => {
   return (
-    <div className="relative flex justify-start gap-[80px] w-[1200px] m-auto py-[155px]">
+    <div className="relative flex justify-start gap-[80px] w-[1200px] m-auto pt-[155px]">
       <div className="services-left relative w-4/12">
         <h1 className="text-[40px] leading-[48px] mb-5 font-bold">
           Services we can help you with

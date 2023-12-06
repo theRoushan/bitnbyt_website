@@ -5,10 +5,10 @@ const Hero = () => {
     <div className="hero w-full h-[100vh] bg-black-600 flex text-white overflow-hidden relative ">
       <div className="w-[1200px] m-auto p-auto">
         <div className="hero-left w-1/2">
-          <h4 className="text-[13px] text-start bg-black-400 rounded-full py-2 px-[25px] inline-block font-semibold mb-[30px]">
+          <h4 className="tag">
             BitnByt - Bits of Byte Brilliance.
           </h4>
-          <h1 className="text-[61px] font-bold leading-[67.2px] mb-[30px]">
+          <h1 className="heading">
             We are a digital marketing agency
           </h1>
           <p className="text-lg leading-[27px] mb-[30px]">

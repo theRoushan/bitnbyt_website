@@ -12,7 +12,7 @@ const HomeSection = () => {
     <div className='relative'>
       <Hero/>
       <Services/>
-      <Work/>
+      <Work heading="Some of our finest work." desc="Corporate strategy collaborative value proposition."/>
       <About/>
       <Testimonials/>
       <Contact/>

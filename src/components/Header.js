@@ -8,16 +8,16 @@ const Header = () => {
           <div className="header-logo text-[25px] font-[800]">BitnByt</div>
           <ul className="mx-[50px] flex place-items-center gap-10">
             <li className="nav-links ">
-              <a href="#hey">Home</a>
+              <a href="/">Home</a>
             </li>
             <li className="nav-links ">
-              <a href="#hey">About</a>
+              <a href="/about">About</a>
             </li>
             <li className="nav-links">
-              <a href="#hey">Portfolio</a>
+              <a href="/portfolio">Portfolio</a>
             </li>
             <li className="nav-links">
-              <a href="#hey">Contact</a>
+              <a href="/contact">Contact</a>
             </li>
           </ul>
         </div>

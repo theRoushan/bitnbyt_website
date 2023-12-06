@@ -1,13 +1,38 @@
 import Header from "./components/Header";
+import AboutSection from "./components/Sections/AboutSection";
 import HomeSection from "./components/Sections/HomeSection";
+import { createBrowserRouter, } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import PortFolioSection from "./components/Sections/PortFolioSection";
 
-function App() {
+const AppLayout = () => {
   return (
-    <div className="App w-full relative overflow-x-hidden">
+    <div className="app font-sans">
       <Header />
-      <HomeSection/>
+      <Outlet />
     </div>
   );
-}
+};
 
-export default App;
+const AppRouter = createBrowserRouter([
+  {
+    path: "/",
+    element: <AppLayout />,
+    children: [
+      {
+        path: "/",
+        element: <HomeSection/>,
+      },
+      {
+        path: "/about",
+        element: <AboutSection/>
+      },
+      {
+        path: "/portfolio",
+        element: <PortFolioSection/>
+      }
+    ],
+  },
+]);
+
+export { AppRouter };

@@ -54,7 +54,7 @@ const Contact = () => {
           <form className="flex flex-col w-full gap-6 relative">
                 <input type="text" name="name" placeholder="your name*" className="text-white outline-none text-lg rounded-[30px] w-full bg-black-800 px-6 placeholder-white py-5 font-semibold "/>
                 <input type="email" name="email" placeholder="your email*" className="text-white text-lg outline-none rounded-[30px] w-full bg-black-800 px-6 placeholder-white py-5 font-semibold"/>
-                <textarea rows={5} name="details" placeholder="Write Project Details" className="text-white text-lg outline-none rounded-[30px] w-full bg-black-800 px-6 placeholder-white py-5 font-semibold"/>
+                <textarea rows={5} name="details" placeholder="Write Project Details*" className="text-white text-lg outline-none rounded-[30px] w-full bg-black-800 px-6 placeholder-white py-5 font-semibold"/>
                 <button className="py-5 bg-white rounded-[30px] text-black text-lg font-semibold hover:bg-white-smoke">Send message</button>
             </form>
         </div>
