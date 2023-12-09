@@ -23,7 +23,7 @@
     @apply transition duration-300;
   }
   .nav-links {
-    @apply text-lg font-semibold hover:text-yellow custom-transition;
+    @apply text-lg font-[500] hover:text-yellow custom-transition;
   }
   .btn {
     @apply py-[14px] px-8 text-lg font-semibold border rounded-full custom-transition;

@@ -4,6 +4,7 @@ import HomeSection from "./components/Sections/HomeSection";
 import { createBrowserRouter } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import PortFolioSection from "./components/Sections/PortFolioSection";
+import ContactSection from "./components/Sections/ContactSection";
 
 const AppLayout = () => {
   return (
@@ -31,6 +32,10 @@ const AppRouter = createBrowserRouter(
         {
           path: "/portfolio",
           element: <PortFolioSection />,
+        },
+        {
+          path: "/contact",
+          element: <ContactSection />,
         },
       ],
     },

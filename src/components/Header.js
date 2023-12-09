@@ -1,4 +1,5 @@
 import React from "react";
+import arrowDown from "../assets/asset 0.svg";
 
 const Header = () => {
   return (
@@ -16,8 +17,17 @@ const Header = () => {
             <li className="nav-links">
               <a href="/portfolio">Portfolio</a>
             </li>
-            <li className="nav-links">
-              <a href="/contact">Contact</a>
+            <li className="group custom-transition">
+              <div className="flex gap-2 place-items-center nav-links">
+                Pages
+                <img src={arrowDown} alt="arrow-down" className="w-4 h-4" />
+              </div>
+              <div className="hidden group-hover:block absolute top-16 pt-4 z-50">
+                <div className="flex p-4 bg-purple flex-col gap-5 place-items-start rounded-xl">
+                  <a href="/contact" className="nav-links w-[96px]">Contact</a>
+                  <a href="/team" className="nav-links w-[96px]">Team</a>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
