@@ -5,6 +5,7 @@ import { createBrowserRouter } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import PortFolioSection from "./components/Sections/PortFolioSection";
 import ContactSection from "./components/Sections/ContactSection";
+import Team from "./components/Team";
 
 const AppLayout = () => {
   return (
@@ -15,31 +16,30 @@ const AppLayout = () => {
   );
 };
 
-const AppRouter = createBrowserRouter(
-  [
-    {
-      path: "/",
-      element: <AppLayout />,
-      children: [
-        {
-          path: "/",
-          element: <HomeSection />,
-        },
-        {
-          path: "/about",
-          element: <AboutSection />,
-        },
-        {
-          path: "/portfolio",
-          element: <PortFolioSection />,
-        },
-        {
-          path: "/contact",
-          element: <ContactSection />,
-        },
-      ],
-    },
-  ],
-);
+const AppRouter = createBrowserRouter([
+  {
+    path: "/",
+    element: <AppLayout />,
+    children: [
+      {
+        path: "/",
+        element: <HomeSection />,
+      },
+      {
+        path: "/about",
+        element: <AboutSection />,
+      },
+      {
+        path: "/portfolio",
+        element: <PortFolioSection />,
+      },
+      {
+        path: "/contact",
+        element: <ContactSection />,
+      },
+      { path: "/team", element: <Team /> },
+    ],
+  },
+]);
 
 export { AppRouter };

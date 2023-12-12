@@ -11,6 +11,7 @@ import asset56 from "../../assets/asset56.svg";
 import asset54 from "../../assets/asset54.svg";
 import Contact from "../Contact";
 import Footer from "../Footer";
+import AboutAnimation from "../Animations/AboutAnimation";
 
 const AboutSection = () => {
   return (
@@ -18,6 +19,7 @@ const AboutSection = () => {
       <Home
         tag="About our Agento Agency"
         heading="We do great things together"
+        animation={<AboutAnimation/>}
       />
       <div className="w-[1200px] relative m-auto py-[110px] flex justify-between items-center gap-10 border-b border-[#d2d2d2]">
         <div className="w-[540px] relative">
