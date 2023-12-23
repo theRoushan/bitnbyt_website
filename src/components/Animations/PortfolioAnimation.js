@@ -15,7 +15,7 @@ const PortfolioAnimation = () => {
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
 
-    return () => window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
     <div className="w-full h-full relative flex justify-center items-center">

@@ -4,11 +4,12 @@ import asset37 from "../../assets/asset 37.svg";
 import asset38 from "../../assets/asset 38.svg";
 import asset39 from "../../assets/asset 39.svg";
 import Footer from "../Footer";
+import ContactAnimation from "../Animations/ContactAnimation";
 
 const ContactSection = () => {
   return (
     <div>
-      <Home tag="Team Members" heading="Contact Us" />
+      <Home tag="Team Members" heading="Contact Us" animation={<ContactAnimation/>}/>
       <div className="w-full min-h-screen flex relative text-black-800 border-b border-[#d2d2d2]">
         <div className="w-[1200px] m-auto py-[140px] flex justify-between items-center relative">
           <div className="contact-left w-5/12">

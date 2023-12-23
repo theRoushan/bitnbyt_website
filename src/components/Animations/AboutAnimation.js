@@ -23,7 +23,7 @@ const AboutAnimation = () => {
     }, []);
   return (
     <>
-      <div className="w-full h-full relative flex justify-center items-center">
+      <div className="w-full h-full relative">
         <img src={asset4} alt="speaker" className="transform scale-x-[-1] w-[90px] h-[70px] absolute top-[17px] left-[230px]" style={{ transform: `scaleX(-1) translateY(-${offsetY * 0.25}px)` }}/>
         <img src={asset9} alt="pinkcircle" className="absolute top-[96px] left-[52px] z-30" style={{ transform: `translateY(+${offsetY * 0.15}px)` }}/>
         <img src={asset10} alt="orangecircle" className="absolute bottom-[179px] right-[68px]"/>
