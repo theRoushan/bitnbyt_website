@@ -11,6 +11,14 @@ import img23 from "../assets/asset 23.jpeg";
 import img31 from "../assets/asset 31.jpeg";
 import img33 from "../assets/asset 33.jpeg";
 import img34 from "../assets/asset 34.jpeg";
+import asset50 from "../assets/asset50.jpg";
+import asset51 from "../assets/asset51.jpg";
+import asset52 from "../assets/asset52.jpg";
+import asset53 from "../assets/asset53.jpg";
+import asset79 from "../assets/asset79.jpg";
+import asset80 from "../assets/asset80.jpg";
+
+
 
 
 export const services = [
@@ -87,5 +95,35 @@ export const testimonials = [
         name: "Mark Firdaus",
         role: "Product Manager",
         comment: "Absolutely thrilled with the exceptional service and incredible results that recieved. Highly recommend!."
+    },
+]
+
+export const team_members = [
+    {
+        imgUrl: asset50,
+        name: "Miranda",
+        role: "Frontend Developer"
+    },
+    {
+        imgUrl: asset51,
+        name: "Paxton Yoshida",
+        role: "Frontend Developer"
+    },
+    {
+        imgUrl: asset52,
+        name: "Ben Marker",
+        role: "Frontend Developer"
+    },{
+        imgUrl: asset53,
+        name: "Chloe",
+        role: "Frontend Developer"
+    },{
+        imgUrl: asset79,
+        name: "Jessi",
+        role: "Frontend Developer"
+    },{
+        imgUrl: asset80,
+        name: "Diana",
+        role: "Frontend Developer"
     },
 ]

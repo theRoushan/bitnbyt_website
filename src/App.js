@@ -6,6 +6,7 @@ import { Outlet } from "react-router-dom";
 import PortFolioSection from "./components/Sections/PortFolioSection";
 import ContactSection from "./components/Sections/ContactSection";
 import Team from "./components/Team";
+import TeamSection from "./components/Sections/TeamSection";
 
 const AppLayout = () => {
   return (
@@ -37,7 +38,7 @@ const AppRouter = createBrowserRouter([
         path: "/contact",
         element: <ContactSection />,
       },
-      { path: "/team", element: <Team /> },
+      { path: "/team", element: <TeamSection/> },
     ],
   },
 ]);
