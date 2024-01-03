@@ -22,49 +22,49 @@ const PortfolioAnimation = () => {
       <img
         src={asset63}
         alt="portfolioillustration"
-        className="absolute z-10 w-[240px] h-[230px] top-[163px] left-[24px]"
+        className="absolute z-10 w-[150px] lg:w-[240px] lg:h-[230px] top-[40px] left-[-22px] lg:top-[163px] lg:left-[24px]"
         style={{ transform: `translateY(-${offsetY * 0.2}px)` }}
       />
       <img
         src={asset64}
         alt="portfolioillustration"
-        className="absolute z-10 w-[240px] h-[230px] bottom-[90px] left-[340px] "
+        className="absolute z-10 w-[150px] lg:w-[240px] lg:h-[230px] bottom-[74px] right-[2px] lg:bottom-[90px] lg:left-[340px] "
         style={{ transform: `translateY(-${offsetY * 0.1}px)` }}
       />
       <img
         src={asset65}
         alt="portfolioillustration"
-        className="absolute z-0 w-[240px] h-[230px] top-[67px]"
+        className="absolute z-0 w-[150px] lg:w-[240px] lg:h-[230px] top-[-30px] lg:top-[67px]"
         style={{ transform: `translateY(+${offsetY * 0.1}px)` }}
       />
       <img
         src={asset66}
         alt="portfolioillustration"
-        className="absolute z-0 w-[75px] h-[75px] top-[108px] right-[72px]"
+        className="absolute z-0 w-[50px] lg:w-[75px] top-[10px] right-[2px] lg:top-[108px] lg:right-[72px]"
         style={{ transform: `translateY(-${offsetY * 0.1}px)` }}
       />
       <img
         src={asset67}
         alt="portfolioillustration"
-        className="absolute z-0 top-[105px] left-[74px]"
+        className="absolute z-0 top-[-4px] left-[20px] w-[30px] lg:w-auto lg:top-[105px] lg:left-[74px]"
         style={{ transform: `translateY(-${offsetY * 0.1}px)` }}
       />
       <img
         src={asset10}
         alt="portfolioillustration"
-        className="absolute w-[11px] h-[11px] top-[182px] right-[24px]"
+        className="absolute lg:w-[11px] w-[14px] top-[58px] right-[-28px] lg:top-[182px] lg:right-[24px]"
         style={{ transform: `translateY(-${offsetY * 0.1}px)` }}
       />
       <img
         src={asset13}
         alt="portfolioillustration"
-        className="absolute w-[18px] h-[18px] bottom-[114px] z-40 left-[172px]"
+        className="absolute lg:w-[18px] w-[16px] bottom-[90px] left-[50px] lg:bottom-[114px] z-40 lg:left-[172px]"
         style={{ transform: `translateY(-${offsetY * 0.1}px)` }}
       />
       <img
         src={asset13}
         alt="portfolioillustration"
-        className="absolute z-0 w-[20px] h-[20px] top-[56px] left-[76px]"
+        className="absolute z-0 w-[16px] lg:w-[20px] top-[-20px] left-[2px] lg:top-[56px] lg:left-[76px]"
         style={{ transform: `translateY(-${offsetY * 0.2}px)` }}
       />
     </div>

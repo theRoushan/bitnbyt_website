@@ -11,15 +11,15 @@ const Testimonials = () => {
         alt="background"
         className="absolute top-0 left-0 w-full h-full z-0 object-cover"
       />
-      <div className="w-[1200px] m-auto relative  py-[140px] z-10 flex flex-col place-items-center">
-        <h1 className="text-[40px] leading-[48px] mb-5 font-bold w-4/12 text-center">
+      <div className="w-full lg:w-[1200px] px-[4%] lg:px-0 m-auto relative py-[60px] lg:py-[140px] z-10 flex flex-col place-items-center">
+        <h1 className="text-[32px] lg:text-[40px] leading-[40px] lg:leading-[48px] mb-5 font-bold lg:w-4/12 text-center">
           What our awesome customers say
         </h1>
-        <p className="info-text w-6/12 text-center mb-12">
+        <p className="info-text lg:w-6/12 text-center mb-12">
           Our team has a successful track record of helping brands scale
           profitably based on high-performing strategies.
         </p>
-        <div className="flex place-items-center gap-5">
+        <div className="flex flex-wrap lg:flex-nowrap place-items-center gap-5">
           {testimonials.map((item) => {
             return (
               <div key={item.name} className="bg-white rounded-[36px] px-5 py-10 flex flex-col place-items-center">

@@ -11,70 +11,70 @@ const ContactSection = () => {
     <div>
       <Home tag="Team Members" heading="Contact Us" animation={<ContactAnimation/>}/>
       <div className="w-full min-h-screen flex relative text-black-800 border-b border-[#d2d2d2]">
-        <div className="w-[1200px] m-auto py-[140px] flex justify-between items-center relative">
-          <div className="contact-left w-5/12">
+        <div className="w-full lg:w-[1200px] px-[4%] lg:px-0 m-auto py-[60px] lg:py-[140px] flex flex-wrap lg:flex-nowrap justify-between items-center relative">
+          <div className="contact-left lg:w-5/12">
           <h4 className="contact tag text-white">Team Members</h4>
-            <h1 className="text-[61px] leading-[67px] mb-5 font-bold">
+            <h1 className="text-[35px] lg:text-[61px] leading-[30px] lg:leading-[67px] mb-5 font-bold">
               Let's get in touch
             </h1>
-            <p className="text-[20px] w-11/12 pb-10">
+            <p className="text-lg lg:text-[20px] lg:w-11/12 pb-10">
             Collaborative thinking to further the proposition.  Organically grow the holistic world view of disruptive innovation via  and empowerment.
             </p>
             <div className="flex flex-col gap-7">
               <div className="flex place-items-center gap-5">
-                <div className="bg-purple w-[80px] h-[80px] rounded-full flex justify-center items-center">
+                <div className="bg-purple w-[70px] h-[70px] lg:w-[80px] lg:h-[80px]  rounded-full flex justify-center items-center">
                   <img src={asset37} alt="email-icon" width={20} />
                 </div>
                 <div>
-                  <h3 className="text-[20px] font-bold">Email</h3>
-                  <p className="text-[20px]">
+                  <h3 className="text-[18px] lg:text-[20px] font-bold">Email</h3>
+                  <p className="text-[18px] lg:text-[20px]">
                     bitnbyt@gmail.com
                   </p>
                 </div>
               </div>
               <div className=" flex place-items-center gap-5">
-                <div className="bg-purple w-[80px] h-[80px] rounded-full flex justify-center items-center">
+                <div className="bg-purple w-[70px] h-[70px] lg:w-[80px] lg:h-[80px] rounded-full flex justify-center items-center">
                   <img src={asset38} alt="phone-icon" width={20} />
                 </div>
                 <div>
-                  <h3 className="text-[20px] font-bold">Phone support</h3>
-                  <p className="text-[20px]">+91 3448835234</p>
+                  <h3 className="text-[18px] lg:text-[20px] font-bold">Phone support</h3>
+                  <p className="text-[18px] lg:text-[20px]">+91 3448835234</p>
                 </div>
               </div>
               <div className=" flex place-items-center gap-5">
-                <div className="bg-purple w-[80px] h-[80px] rounded-full flex justify-center items-center">
+                <div className="bg-purple w-[70px] h-[70px] lg:w-[80px] lg:h-[80px]  rounded-full flex justify-center items-center">
                   <img src={asset39} alt="location-icon" width={20} />
                 </div>
                 <div>
-                  <h3 className="text-[20px] font-bold">Address</h3>
-                  <p className="text-[20px]">
+                  <h3 className="text-[18px] lg:text-[20px] font-bold">Address</h3>
+                  <p className="text-[18px] lg:text-[20px]">
                     Blue orchid Tower, Madhepura, Bihar
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="contact-right w-6/12 rounded-3xl p-16 h-max overflow-hidden relative bg-opacity-90 bg-purple">
+          <div className="contact-right w-full mt-10 lg:mt-0 lg:w-6/12 rounded-3xl p-6 lg:p-16 h-max overflow-hidden relative bg-opacity-90 bg-purple">
             <form className="flex flex-col w-full gap-6 relative">
               <input
                 type="text"
                 name="name"
                 placeholder="Name"
-                className=" outline-none text-base rounded-xl w-full placeholder-black bg-white px-6 py-5 "
+                className=" outline-none text-base rounded-xl w-full placeholder-black bg-white px-6 py-4 lg:py-5 "
               />
               <input
                 type="email"
                 name="email"
                 placeholder="Email"
-                className=" text-base outline-none rounded-xl w-full placeholder-black bg-white px-6 py-5 "
+                className=" text-base outline-none rounded-xl w-full placeholder-black bg-white px-6 py-4 lg:py-5 "
               />
               <textarea
                 rows={7}
                 name="details"
                 placeholder="Message"
-                className=" text-base outline-none rounded-xl w-full placeholder-black bg-white px-6 py-5 "
+                className=" text-base outline-none rounded-xl w-full placeholder-black bg-white px-6 py-4 lg:py-5 "
               />
-              <button className="py-5 bg-yellow rounded-xl text-black text-base font-semibold hover:bg-opacity-90">
+              <button className="py-4 lg:py-5 bg-yellow rounded-xl text-black text-base font-semibold hover:bg-opacity-90">
                 Send Message
               </button>
             </form>

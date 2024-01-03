@@ -5,7 +5,6 @@ import { createBrowserRouter } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import PortFolioSection from "./components/Sections/PortFolioSection";
 import ContactSection from "./components/Sections/ContactSection";
-import Team from "./components/Team";
 import TeamSection from "./components/Sections/TeamSection";
 
 const AppLayout = () => {

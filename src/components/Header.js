@@ -1,5 +1,6 @@
 import React from "react";
 import arrowDown from "../assets/asset 0.svg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -9,13 +10,13 @@ const Header = () => {
           <div className="header-logo text-[25px] font-[800]">BitnByt</div>
           <ul className="mx-[50px] flex place-items-center gap-10">
             <li className="nav-links ">
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li className="nav-links ">
-              <a href="/about">About</a>
+              <Link to="/about">About</Link>
             </li>
             <li className="nav-links">
-              <a href="/portfolio">Portfolio</a>
+              <Link to="/portfolio">Portfolio</Link>
             </li>
             <li className="group custom-transition">
               <div className="flex gap-2 place-items-center nav-links">
@@ -24,8 +25,8 @@ const Header = () => {
               </div>
               <div className="hidden group-hover:block absolute top-16 pt-4 z-50">
                 <div className="flex p-4 bg-purple flex-col gap-5 place-items-start rounded-xl">
-                  <a href="/contact" className="nav-links w-[96px]">Contact</a>
-                  <a href="/team" className="nav-links w-[96px]">Team</a>
+                  <Link to="/contact" className="nav-links w-[96px]">Contact</Link>
+                  <Link to="/team" className="nav-links w-[96px]">Team</Link>
                 </div>
               </div>
             </li>

@@ -22,48 +22,53 @@ const ContactAnimation = () => {
       <img
         src={asset68}
         alt="contactillustration"
-        className="absolute w-[76px] h-[60px] top-[232px] left-[2px] "
-        style={{transform: `translateY(-${offsetY * 0.2}px) rotate(-23deg)`}}
+        className="absolute w-[44px] lg:w-[76px] lg:h-[60px] top-[86px] lg:top-[232px] lg:left-[2px] "
+        style={{transform: `translateY(-${offsetY * 0.1}px) rotate(-23deg)`}}
       />
       <img
         src={asset69}
         alt="contactillustration"
-        className="absolute bottom-[132px] right-[166px]"
+        className="absolute w-[110px] lg:w-auto bottom-[102px] right-[28px] lg:bottom-[132px] lg:right-[166px] z-40"
+        
       />
       <img
         src={asset70}
         alt="contactillustration"
-        className="absolute bottom-[122px] left-[116px]"
+        className="absolute w-[66px] lg:w-auto bottom-[96px] left-[60px] lg:bottom-[122px] lg:left-[116px]"
       />
       <img
         src={asset71}
         alt="contactillustration"
-        className="absolute top-[55px] left-[72px]"
+        className="absolute w-[112px] lg:w-auto top-[-18px]  left-[10px] lg:top-[55px] lg:left-[72px]"
+        style={{transform: `translateY(-${offsetY * 0.1}px)`}}
       />
       <img
         src={asset72}
         alt="contactillustration"
-        className="absolute top-[26px] right-[136px]"
+        className="absolute w-[80px] top-[-20px] right-[60px] lg:w-auto lg:top-[26px] lg:right-[136px]"
+        style={{transform: `translateY(+${offsetY * 0.2}px)`}}
       />
       <img
         src={asset73}
         alt="contactillustration"
-        className="absolute w-[88px] top-[240px] right-[82px] rotate-[30deg]"
+        className="absolute w-[48px] lg:w-[88px] top-[80px] lg:top-[240px] right-[10px] lg:right-[82px] rotate-[30deg]"
       />
       <img
         src={asset10}
         alt="contactillustration"
-        className="absolute top-[55px] right-[88px] w-4 h-4 "
+        className="absolute top-[4px] lg:top-[55px] right-[20px] lg:right-[88px] w-4 h-4 "
+        style={{transform: `translateY(-${offsetY * 0.1}px)`}}
       />
       <img
         src={asset13}
         alt="contactillustration"
-        className="absolute w-[22px] top-[158px] right-[49px]"
+        className="absolute w-4 lg:w-[22px] top-[48px] lg:top-[158px] right-[4px] lg:right-[49px]"
+        style={{transform: `translateY(-${offsetY * 0.1}px)`}}
       />
       <img
         src={asset13}
         alt="contactillustration"
-        className="absolute w-[18px] bottom-[146px] left-[83px]"
+        className="absolute w-4 lg:w-[18px] bottom-[96px] left-[28px] lg:bottom-[146px] lg:left-[83px]"
       />
     </div>
   );

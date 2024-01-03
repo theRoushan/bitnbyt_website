@@ -1,17 +1,17 @@
 import React from "react";
 import { team_members } from "../constants/constant";
-import asset40 from "../assets/asset 40.svg";
+// import asset40 from "../assets/asset 40.svg";
 import asset41 from "../assets/asset 41.svg";
 import asset42 from "../assets/asset 42.svg";
 import asset43 from "../assets/asset 43.svg";
 
 const Team = () => {
   return (
-    <div className="relative w-[1200px] m-auto py-[110px]">
+    <div className="relative w-full lg:w-[1200px] m-auto py-[60px] px-[4%] lg:px-0 lg:py-[110px]">
       <div className="flex flex-wrap justify-between items-start">
         {team_members.map((member) => {
           return (
-            <div className="py-6">
+            <div className="py-6 m-auto">
               <img
                 src={member.imgUrl}
                 alt={member.name + "img"}
