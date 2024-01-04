@@ -7,20 +7,19 @@ import asset43 from "../assets/asset 43.svg";
 
 const Team = () => {
   return (
-    <div className="relative w-full lg:w-[1200px] m-auto py-[60px] px-[4%] lg:px-0 lg:py-[110px]">
-      <div className="flex flex-wrap justify-between items-start">
+    <div className="relative w-full xl:w-[1200px] m-auto py-[60px] px-[4%] xl:px-0 lg:py-[110px]">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
         {team_members.map((member) => {
           return (
-            <div className="py-6 m-auto">
+            <div className="py-2">
               <img
                 src={member.imgUrl}
                 alt={member.name + "img"}
-                width={370}
-                className="transform scale-[1] hover:scale-[0.9] custom-transition mb-5"
+                className="w-full h-[50vh] object-cover transform scale-[1] hover:scale-[0.9] custom-transition mb-5"
               />
               <div className="flex justify-between items-center">
                 <div>
-                  <p className="text-[22px] font-semibold text-black-800">
+                  <p className="text-lg md:text-xl xl:text-[22px] font-semibold text-black-800">
                     {member.name}
                   </p>
                   <p className="text-[#a0a0a0] text-lg">{member.role}</p>

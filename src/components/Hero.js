@@ -28,7 +28,7 @@ const Hero = () => {
   return (
     <div className="hero w-full pb-[100px] bg-black-600 flex text-white overflow-hidden relative ">
       <div className="w-full h-max flex flex-wrap lg:w-[1200px] lg:h-[750px] m-auto relative px-[3%] lg:px-0">
-        <div className="h-full hero-left w-full lg:w-1/2 py-[30px] lg:py-[175px] text-center lg:text-start">
+        <div className="h-full hero-left w-full md:w-1/2 py-[30px] lg:py-[175px] text-center md:text-start">
           <h4 className="tag">BitnByt - Bits of Byte Brilliance.</h4>
           <h1 className="heading">We are a digital marketing agency</h1>
           <p className="text-base lg:text-lg lg:leading-[27px] mb-[30px]">

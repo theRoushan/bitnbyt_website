@@ -5,16 +5,16 @@ import { Link } from "react-router-dom";
 
 const Work = (props) => {
   return (
-    <div className="w-full lg:w-[1200px] px-[4%] lg:px-0 m-auto relative py-[60px] lg:py-[140px] ">
+    <div className="w-full xl:w-[1200px] px-[4%] lg:px-[1%] xl:px-0 m-auto relative py-[60px] md:py-[100px] xl:py-[140px] ">
       {props.heading && (
-        <h1 className="text-[32px] lg:text-[40px] font-bold lg:leading-[48px] lg:text-center mb-[10px]">
+        <h1 className="text-[32px] md:text-[36px] xl:text-[40px] font-bold xl:leading-[48px] md:text-center mb-[10px]">
           {props.heading}
         </h1>
       )}
       {props.desc && (
-        <p className="info-text lg:text-center mb-[40px]">{props.desc}</p>
+        <p className="info-text  md:text-center mb-[40px]">{props.desc}</p>
       )}
-      <div className="w-full grid lg:grid-cols-3 gap-10 lg:px-[30px] ">
+      <div className="w-full grid md:grid-cols-2 xl:grid-cols-3 gap-10 lg:px-[30px] ">
         {work.map((item) => {
           return (
             <div key={item.imgUrl}>
@@ -35,7 +35,7 @@ const Work = (props) => {
                 </div>
               </Link>
 
-              <h3 className="text-lg lg:text-[22px] leading-[27px] mb-1 font-semibold">
+              <h3 className="text-lg md:text-[20px] xl:text-[22px] leading-[27px] mb-1 font-semibold">
                 {item.title}
               </h3>
               <p className="info-text">{item.desc}</p>

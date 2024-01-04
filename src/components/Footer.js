@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="w-full lg:w-[1200px] px-[4%] lg:px-0 pt-[60px] m-auto lg:pt-[140px] pb-8 text-black-800">
+    <div className="w-full xl:w-[1200px] px-[4%] xl:px-0 pt-[60px] md:pt-[100px] m-auto xl:pt-[140px] pb-8 text-black-800">
       <div className="w-full gap-4 flex flex-wrap justify-between pb-10 border-b border-light-gray">
-        <div className="lg:w-4/12 flex flex-col gap-4 lg:gap-32">
+        <div className="lg:w-4/12 flex flex-col gap-4 xl:gap-32 mb-10">
           <div>
             <h1 className="text-[26px] lg:text-[30px] font-bold mb-4">BitnByt</h1>
             <p className="info-text">
