@@ -22,13 +22,13 @@ const PortfolioAnimation = () => {
       <img
         src={asset63}
         alt="portfolioillustration"
-        className="absolute z-10 w-[150px] lg:w-[240px] lg:h-[230px] top-[40px] left-[-22px] lg:top-[163px] lg:left-[24px]"
+        className="absolute z-10 w-[150px] lg:w-[240px] lg:h-[230px] top-[40px] left-[-22px] lg:top-[163px] lg:left-[34px] xl:left-[24px]"
         style={{ transform: `translateY(-${offsetY * 0.2}px)` }}
       />
       <img
         src={asset64}
         alt="portfolioillustration"
-        className="absolute z-10 w-[150px] lg:w-[240px] lg:h-[230px] bottom-[74px] right-[2px] lg:bottom-[90px] lg:left-[340px] "
+        className="absolute z-10 w-[150px] lg:w-[240px] lg:h-[230px] bottom-[74px] right-[2px] lg:bottom-[90px] lg:left-[310px] xl:left-[340px] "
         style={{ transform: `translateY(-${offsetY * 0.1}px)` }}
       />
       <img

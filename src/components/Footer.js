@@ -80,7 +80,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="flex justify-between pt-6">
+      <div className="w-full flex flex-col sm:flex-row gap-4 items-center sm:justify-between pt-6">
         <p className="text-gray-dark">&copy; Copyright BitnByt.com</p>
         <p className="font-[500]">
           <Link to="#url">Terms and Condition</Link>

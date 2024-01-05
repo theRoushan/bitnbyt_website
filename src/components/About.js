@@ -6,7 +6,7 @@ import img26 from "../assets/asset 26.svg";
 const About = () => {
   return (
     <div className="bg-black-800 text-white">
-      <div className="w-full xl:w-[1200px] h-full m-auto px-[4%] xl:px-0 py-[60px] md:py-[100px] xl:py-32 flex flex-wrap x;xl:flex-nowrap justify-between items-center gap-[60px] relative">
+      <div className="w-full xl:w-[1200px] h-full m-auto px-[4%] xl:px-0 py-[60px] md:py-[100px] xl:py-32 flex flex-wrap xl:flex-nowrap justify-between items-center gap-[60px] relative">
         <div className="about-left w-full relative">
           <h1 className="text-[32px] md:text-[36px] xl:text-[40px] font-bold xl:leading-[48px] mb-[30px]">
             We’re Creative Agency From Los Angeles

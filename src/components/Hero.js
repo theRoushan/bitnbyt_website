@@ -26,9 +26,9 @@ const Hero = () => {
     };
   });
   return (
-    <div className="hero w-full pb-[100px] bg-black-600 flex text-white overflow-hidden relative ">
-      <div className="w-full h-max flex flex-wrap lg:w-[1200px] lg:h-[750px] m-auto relative px-[3%] lg:px-0">
-        <div className="h-full hero-left w-full md:w-1/2 py-[30px] lg:py-[175px] text-center md:text-start">
+    <div className="hero w-full pb-[100px] bg-black-600 flex text-white overflow-hidden relative">
+      <div className="w-full flex flex-wrap xl:w-[1200px] lg:h-[750px] m-auto relative px-[3%] xl:px-0">
+        <div className="h-full hero-left w-full lg:w-1/2 py-[30px] lg:py-[175px] text-center lg:text-start">
           <h4 className="tag">BitnByt - Bits of Byte Brilliance.</h4>
           <h1 className="heading">We are a digital marketing agency</h1>
           <p className="text-base lg:text-lg lg:leading-[27px] mb-[30px]">
@@ -38,14 +38,14 @@ const Hero = () => {
           </p>
           <div>
             <form
-              className="flex justify-center lg:justify-start gap-4"
+              className="flex flex-wrap xl:flex-nowrap justify-center lg:justify-start gap-4 relative z-0"
               onSubmit={(e) => e.preventDefault()}
             >
               <input
                 type="email"
                 name="email"
                 placeholder="Your email here"
-                className="py-[14px] px-8 text-sm lg:text-lg border rounded-full w-1/2 lg:w-8/12 focus:outline-purple text-black "
+                className="py-[14px] px-8 text-sm md:text-lg border rounded-full w-10/12 sm:w-6/12 lg:w-8/12 focus:outline-purple text-black "
               />
               <button className="btn bg-yellow border-yellow text-black hover:text-white hover:bg-transparent">
                 Contact Us

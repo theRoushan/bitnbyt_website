@@ -39,11 +39,11 @@ const AboutSection = () => {
             of your online presence with Agento.
           </p>
         </div>
-        <div>
+        <div className="w-full lg:w-[620px]">
           <h1 className="text-[32px] md:text-[36px] xl:text-[40px] leading-[40px] lg:leading-[48px] mb-5 font-bold pb-5">
             We help to create strategies, design & development.
           </h1>
-          <div className="w-full h-[30vh] xl:w-[620px] lg:h-[350px] overflow-hidden relative rounded-[30px] mb-10">
+          <div className="w-full h-[30vh] lg:h-[350px] overflow-hidden relative rounded-[30px] mb-10">
             <img src={asset44} alt="asset44" className="w-full h-full object-cover" />
           </div>
           <p className="text-[22px] md:text-[25px] pb-[10px] font-bold">Value</p>
@@ -62,14 +62,14 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-      <div className="w-full xl:w-[1200px] relative m-auto pt-[60px] md:pt-[100px] px-[4%] xl:px-0 xl:py-[110px]">
+      <div className="w-full xl:w-[1200px] relative m-auto py-[60px] md:py-[100px] px-[4%] xl:px-0 xl:py-[110px]">
         <h1 className="text-[32px] md:text-[36px] lg:text-[40px] leading-[40px] lg:leading-[48px] mb-5 font-bold text-center">
           Superior design & concept work
         </h1>
         <p className="info-text text-center mb-10">
           Corporate strategy collaborative value proposition.
         </p>
-        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8 xl:gap-0 items-center xl:pb-[110px]">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8 xl:gap-0 items-center ">
           <div className="flex gap-6 w-[400px]">
             <div className="w-[70px] h-[70px] overflow-hidden">
               <img src={asset46} alt="icon" className="object-contain" />
@@ -161,7 +161,7 @@ const AboutSection = () => {
             </div>
           </div>
         </div>
-        <div className="w-full h-content my-[50px]  md:my-[100px]  lg:h-[404px] relative  rounded-[30px] overflow-hidden">
+        <div className="w-full h-content mt-[100px] lg:h-[404px] relative  rounded-[30px] overflow-hidden">
           <img
             src={asset49}
             alt="bg-graident"
