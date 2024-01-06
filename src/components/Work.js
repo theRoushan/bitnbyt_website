@@ -2,22 +2,47 @@ import React from "react";
 import { work } from "../constants/constant";
 import AddRoundedIcon from "@mui/icons-material/AddRounded";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Work = (props) => {
   return (
     <div className="w-full xl:w-[1200px] px-[4%] lg:px-[1%] xl:px-0 m-auto relative py-[60px] md:py-[100px] xl:py-[140px] ">
       {props.heading && (
-        <h1 className="text-[32px] md:text-[36px] xl:text-[40px] font-bold xl:leading-[48px] md:text-center mb-[10px]">
+        <motion.h1
+          className="text-[32px] md:text-[36px] xl:text-[40px] font-bold xl:leading-[48px] md:text-center mb-[10px]"
+          initial={{ opacity: 0, y: "60px" }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2, duration: 0.5, type: "string" }}
+          viewport={{ once: true }}
+        >
           {props.heading}
-        </h1>
+        </motion.h1>
       )}
       {props.desc && (
-        <p className="info-text  md:text-center mb-[40px]">{props.desc}</p>
+        <motion.p
+          className="info-text  md:text-center mb-[40px]"
+          initial={{ opacity: 0, y: "60px" }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.3, duration: 0.5, type: "string" }}
+        >
+          {props.desc}
+        </motion.p>
       )}
       <div className="w-full grid md:grid-cols-2 xl:grid-cols-3 gap-10 lg:px-[30px] ">
-        {work.map((item) => {
+        {work.map((item, index) => {
           return (
-            <div key={item.imgUrl}>
+            <motion.div
+              key={item.imgUrl}
+              initial={{ opacity: 0, y: "60px" }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                delay: 0.5 + index * 0.1,
+                duration: 0.4,
+                type: "string",
+              }}
+              viewport={{ once: true }}
+            >
               <Link to="/projectdetails">
                 <div className="w-full h-[430px] relative group mb-6">
                   <img
@@ -39,7 +64,7 @@ const Work = (props) => {
                 {item.title}
               </h3>
               <p className="info-text">{item.desc}</p>
-            </div>
+            </motion.div>
           );
         })}
       </div>
