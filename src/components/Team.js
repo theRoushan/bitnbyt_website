@@ -1,6 +1,6 @@
 import React from "react";
 import { team_members } from "../constants/constant";
-// import asset40 from "../assets/asset 40.svg";
+import { motion } from "framer-motion";
 import asset41 from "../assets/asset 41.svg";
 import asset42 from "../assets/asset 42.svg";
 import asset43 from "../assets/asset 43.svg";
@@ -9,9 +9,19 @@ const Team = () => {
   return (
     <div className="relative w-full xl:w-[1200px] m-auto py-[60px] px-[4%] xl:px-0 lg:py-[110px]">
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
-        {team_members.map((member) => {
+        {team_members.map((member, index) => {
           return (
-            <div className="py-2">
+            <motion.div
+              className="py-2"
+              initial={{ opacity: 0, y: "60px" }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                delay: 0.5 + index * 0.1,
+                duration: 0.4,
+                type: "string",
+              }}
+              viewport={{ once: true }}
+            >
               <img
                 src={member.imgUrl}
                 alt={member.name + "img"}
@@ -36,7 +46,7 @@ const Team = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
           );
         })}
       </div>

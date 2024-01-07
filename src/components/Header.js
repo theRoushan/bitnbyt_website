@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { Sling as Hamburger } from "hamburger-react";
 import arrowDown from "../assets/asset 0.svg";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
   const [isOpen, setOpen] = useState(false);
+  const location = useLocation();
 
   return (
     <div className="header w-full bg-black-600 text-white overflow-hidden">
@@ -13,13 +14,13 @@ const Header = () => {
           <div className="header-logo text-[25px] font-[800]">BitnByt</div>
           <div className="hidden md:block">
             <ul className="mx-[50px] flex place-items-center gap-10">
-              <li className="nav-links ">
-                <Link to="/">Home</Link>
+              <li className={`nav-links ${location.pathname === "/" ? "active" : ""}`}>
+                <Link to="/" >Home</Link>
               </li>
-              <li className="nav-links ">
+              <li className={`nav-links ${location.pathname === "/about" ? "active" : ""}`}>
                 <Link to="/about">About</Link>
               </li>
-              <li className="nav-links">
+              <li className={`nav-links ${location.pathname === "/portfolio" ? "active" : ""}`}>
                 <Link to="/portfolio">Portfolio</Link>
               </li>
               <li className="group custom-transition">
@@ -29,10 +30,10 @@ const Header = () => {
                 </div>
                 <div className="hidden group-hover:block absolute top-16 pt-4 z-50">
                   <div className="flex p-4 bg-purple flex-col gap-5 place-items-start rounded-xl">
-                    <Link to="/contact" className="nav-links w-[96px]">
+                    <Link to="/contact" className={`nav-links ${location.pathname === "/contact" ? "active" : ""} w-[96px]`}>
                       Contact
                     </Link>
-                    <Link to="/team" className="nav-links w-[96px]">
+                    <Link to="/team" className={`nav-links ${location.pathname === "/team" ? "active" : ""} w-[96px]`}>
                       Team
                     </Link>
                   </div>
@@ -62,19 +63,19 @@ const Header = () => {
           >
             <div className="bg-white p-4 w-[90%] mx-auto mt-4 rounded-xl relative">
               <ul className="bg-black-800 rounded-xl flex flex-col place-items-center">
-                <li className="nav-links py-4">
+                <li className={`nav-links py-4 ${location.pathname === "/" ? "active" : ""}`}>
                   <Link to="/">Home</Link>
                 </li>
-                <li className="nav-links py-4">
+                <li className={`nav-links py-4 ${location.pathname === "/about" ? "active" : ""}`}>
                   <Link to="/about">About</Link>
                 </li>
-                <li className="nav-links py-4">
+                <li className={`nav-links py-4 ${location.pathname === "/portfolio" ? "active" : ""}`}>
                   <Link to="/portfolio">Portfolio</Link>
                 </li>
-                <li className="nav-links py-4">
+                <li className={`nav-links py-4 ${location.pathname === "/contact" ? "active" : ""}`}>
                   <Link to="/contact">Contact</Link>
                 </li>
-                <li className="nav-links py-4">
+                <li className={`nav-links py-4 ${location.pathname === "/team" ? "active" : ""}`}>
                   <Link to="/team">Team</Link>
                 </li>
                 <button className="btn border-white hover:bg-yellow my-4 hover:border-yellow hover:text-black">

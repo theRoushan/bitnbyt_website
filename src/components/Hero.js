@@ -33,7 +33,7 @@ const Hero = () => {
           className="h-full hero-left w-full lg:w-1/2 py-[30px] lg:py-[175px] text-center lg:text-start"
           initial={{ opacity: 0, y: "60px" }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2, duration: 0.8, type: "string" }}
+          transition={{ delay: 0.2, duration: 0.6, type: "string" }}
           viewport={{ once: true }}
         >
           <h4 className="tag">BitnByt - Bits of Byte Brilliance.</h4>
@@ -71,7 +71,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale:0.9, y: 60 }}
             whileInView={{ opacity: 1, scale:1, y:0}}
             viewport={{ once: true }}
-            transition={{ delay: 0.6, duration: 0.7, type: "string" }}
+            transition={{ delay: 0.5, duration: 0.7, type: "string" }}
           />
           <motion.img
             src={asset2}
@@ -81,7 +81,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale:0.9 , y:60}}
             whileInView={{ opacity: 1, scale:1, y:0}}
             viewport={{ once: true }}
-            transition={{ delay: 0.6, duration: 0.7, type: "string" }}
+            transition={{ delay: 0.5, duration: 0.7, type: "string" }}
           />
           <motion.img
             src={asset3}
@@ -120,7 +120,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale:0.9 , y:60}}
             whileInView={{ opacity: 1, scale:1, y:0}}
             viewport={{ once: true }}
-            transition={{ delay: 0.9, duration: 0.7, type: "string" }}
+            transition={{ delay: 0.8, duration: 0.7, type: "string" }}
           />
           <motion.img
             src={asset7}
@@ -130,7 +130,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale:0.9 , y:60}}
             whileInView={{ opacity: 1, scale:1, y:0}}
             viewport={{ once: true }}
-            transition={{ delay: 0.7, duration: 0.7, type: "string" }}
+            transition={{ delay: 0.8, duration: 0.7, type: "string" }}
           />
           <motion.img
             src={asset8}
@@ -150,7 +150,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale:0.9 , y:60}}
             whileInView={{ opacity: 1, scale:1, y:0}}
             viewport={{ once: true }}
-            transition={{ delay: 0.6, duration: 0.7, type: "string" }}
+            transition={{ delay: 0.5, duration: 0.7, type: "string" }}
           />
           <motion.img
             src={asset10}
@@ -160,7 +160,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale:0.9 , y:60}}
             whileInView={{ opacity: 1, scale:1, y:0}}
             viewport={{ once: true }}
-            transition={{ delay: 0.7, duration: 0.4, type: "string" }}
+            transition={{ delay: 0.6, duration: 0.4, type: "string" }}
           />
           <motion.img
             src={asset11}
@@ -169,7 +169,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale:0.9 , y:60}}
             whileInView={{ opacity: 1, scale:1, y:0}}
             viewport={{ once: true }}
-            transition={{ delay: 0.8, duration: 0.7, type: "string" }}
+            transition={{ delay: 0.7, duration: 0.7, type: "string" }}
           />
           <motion.img
             src={asset12}
@@ -179,7 +179,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale:0.9 , y:60}}
             whileInView={{ opacity: 1, scale:1, y:0}}
             viewport={{ once: true }}
-            transition={{ delay: 0.8, duration: 0.7, type: "string" }}
+            transition={{ delay: 0.7, duration: 0.7, type: "string" }}
           />
           <motion.img
             src={asset13}
@@ -189,7 +189,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale:0.9 , y:60}}
             whileInView={{ opacity: 1, scale:1, y:0}}
             viewport={{ once: true }}
-            transition={{ delay: 0.8, duration: 0.7, type: "string" }}
+            transition={{ delay: 0.6, duration: 0.7, type: "string" }}
           />
           <motion.img
             src={asset13}
@@ -199,7 +199,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale:0.9 , y:60}}
             whileInView={{ opacity: 1, scale:1, y:0}}
             viewport={{ once: true }}
-            transition={{ delay: 0.8, duration: 0.7, type: "string" }}
+            transition={{ delay: 0.6, duration: 0.7, type: "string" }}
           />
         </div>
       </div>

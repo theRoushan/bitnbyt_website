@@ -25,6 +25,9 @@
   .nav-links {
     @apply text-lg font-[500] custom-transition hover:text-yellow;
   }
+  .nav-links.active{
+    @apply text-yellow
+  }
   .btn {
     @apply py-[14px] px-8 text-sm md:text-lg font-semibold border rounded-full custom-transition;
   }

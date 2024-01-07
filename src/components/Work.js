@@ -1,7 +1,6 @@
 import React from "react";
 import { work } from "../constants/constant";
 import AddRoundedIcon from "@mui/icons-material/AddRounded";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const Work = (props) => {
@@ -43,22 +42,20 @@ const Work = (props) => {
               }}
               viewport={{ once: true }}
             >
-              <Link to="/projectdetails">
-                <div className="w-full h-[430px] relative group mb-6">
-                  <img
-                    src={item.imgUrl}
-                    alt="work"
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute top-0 left-0 w-full h-full p-[50px]">
-                    <div className="bg-white w-full h-full flex justify-center items-center bg-opacity-25 opacity-0 group-hover:opacity-100 transition duration-700">
-                      <div className="p-[24px] rounded-full text-white border-2 border-white">
-                        <AddRoundedIcon />
-                      </div>
+              <div className="w-full h-[430px] relative group mb-6">
+                <img
+                  src={item.imgUrl}
+                  alt="work"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute top-0 left-0 w-full h-full p-[50px]">
+                  <div className="bg-white w-full h-full flex justify-center items-center bg-opacity-25 opacity-0 group-hover:opacity-100 transition duration-700">
+                    <div className="p-[24px] rounded-full text-white border-2 border-white">
+                      <AddRoundedIcon />
                     </div>
                   </div>
                 </div>
-              </Link>
+              </div>
 
               <h3 className="text-lg md:text-[20px] xl:text-[22px] leading-[27px] mb-1 font-semibold">
                 {item.title}
